@@ -1,0 +1,16 @@
+[1103/183733.272:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1103/184249.901:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1103/221601.449:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1105/103051.584:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1105/103051.586:ERROR:exception_snapshot_win.cc(99)] thread ID 20744 not found in process
+[1105/103051.601:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1105/103051.601:ERROR:exception_snapshot_win.cc(99)] thread ID 12504 not found in process
+[1105/103051.602:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1105/103051.621:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1105/103051.621:ERROR:exception_snapshot_win.cc(99)] thread ID 43188 not found in process
+[1105/103051.775:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1105/103051.776:ERROR:exception_snapshot_win.cc(99)] thread ID 5264 not found in process
+[1105/103051.780:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1105/103051.780:ERROR:exception_snapshot_win.cc(99)] thread ID 13680 not found in process
+[1105/103051.796:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1105/103051.796:ERROR:exception_snapshot_win.cc(99)] thread ID 35432 not found in process

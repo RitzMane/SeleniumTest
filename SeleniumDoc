@@ -1,0 +1,67 @@
+Selenium 
+	It is a functional testing
+	Test only web based applications.(Related to web browser) 
+	
+	Components of Selenium Suite
+
+	1. Selenium IDE
+		-->Record and playback feature(no writing script).
+		-->Plugin to browsers: Firefox and Chrome.
+	2. Selenium RC(outdated components)
+		-->requires scripting
+		-->problem: same origin policy (user in US and tester in Mumbai ...to access we have to establish in my location).
+	3. Selenium Webdriver
+		-->server is anywhere is tested easily
+		-->requires scripting in following languages (JAVA,Pyton, Ruby, Groovy,JS,C#).
+		--> supports cross browsers or mutli browsers testing (platform independent)
+		-->support data driven testing framework,TDD(Junit),BDD,Keyword drievn ,hybrid driven.
+	4. Selenium Grid
+		-->can run selenium webdriven script on multiple systems at a time.(linux,windows,mac).
+--------------------------------------------------------------------------------------------------------------------	
+Website under test:https://opensource-demo.orangehrmlive.com/index.php/auth/login	
+	
+LoginPage:
+	Steps:
+	1.Open browser
+	2.enter the url
+	3.enter the username: Admin
+	4.enter the password: admin123
+	5.Click on Login button.
+	
+	Expected result: successful login and dashboard should be displayed.
+	
+--------------------------------------------------------------------------------------------------------------------
+
+To locate the element on the web page we have to use Element Locators:
+	driver.findElement(By.name(" "))
+Element Locators:
+1.Name
+2.id
+	Above element locators are directly available as as "tag attributes".
+3.xpath
+4.cssSelector
+5.tagNmae
+6.className
+7.linkTest
+8.partialLinkTest
+----------------------------------------------------------------------------------------------------------------
+
+TestNG Framework(architecture provide us with templates)
+Always ANNOTATIONS(Function):
+		example:@annotationName
+		are always followed by functions.
+		program is executed with the help of annotations.
+		sequence the execution.
+		runs the function without calling them, without any object and sequence.
+		
+--------------------------------------------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

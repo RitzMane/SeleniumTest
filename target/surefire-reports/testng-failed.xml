@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.orangehrmlive.XmlTest">
+        <methods>
+          <include name="paraTest1"/>
+        </methods>
+      </class> <!-- com.orangehrmlive.XmlTest -->
+      <class name="com.orangehrmlive.TestNGDemo">
+        <methods>
+          <include name="leaveTest"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.orangehrmlive.TestNGDemo -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
